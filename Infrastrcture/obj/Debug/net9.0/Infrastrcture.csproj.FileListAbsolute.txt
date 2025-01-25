@@ -13,3 +13,4 @@
 /Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/refint/Infrastrcture.dll
 /Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.pdb
 /Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/ref/Infrastrcture.dll
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.sourcelink.json

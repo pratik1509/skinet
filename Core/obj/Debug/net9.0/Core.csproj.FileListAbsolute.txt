@@ -9,3 +9,4 @@
 /Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/refint/Core.dll
 /Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.pdb
 /Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/ref/Core.dll
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.sourcelink.json
