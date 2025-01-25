@@ -1,0 +1,11 @@
+/Users/pratik/Projects/Skinet/Core/bin/Debug/net9.0/Core.deps.json
+/Users/pratik/Projects/Skinet/Core/bin/Debug/net9.0/Core.dll
+/Users/pratik/Projects/Skinet/Core/bin/Debug/net9.0/Core.pdb
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.AssemblyInfoInputs.cache
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.AssemblyInfo.cs
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.csproj.CoreCompileInputs.cache
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.dll
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/refint/Core.dll
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/Core.pdb
+/Users/pratik/Projects/Skinet/Core/obj/Debug/net9.0/ref/Core.dll

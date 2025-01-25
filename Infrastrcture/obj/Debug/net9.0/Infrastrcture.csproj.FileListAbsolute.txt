@@ -1,0 +1,15 @@
+/Users/pratik/Projects/Skinet/Infrastrcture/bin/Debug/net9.0/Infrastrcture.deps.json
+/Users/pratik/Projects/Skinet/Infrastrcture/bin/Debug/net9.0/Infrastrcture.dll
+/Users/pratik/Projects/Skinet/Infrastrcture/bin/Debug/net9.0/Infrastrcture.pdb
+/Users/pratik/Projects/Skinet/Infrastrcture/bin/Debug/net9.0/Core.dll
+/Users/pratik/Projects/Skinet/Infrastrcture/bin/Debug/net9.0/Core.pdb
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.csproj.AssemblyReference.cache
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.AssemblyInfoInputs.cache
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.AssemblyInfo.cs
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.csproj.CoreCompileInputs.cache
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastr.B3E097A4.Up2Date
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.dll
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/refint/Infrastrcture.dll
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/Infrastrcture.pdb
+/Users/pratik/Projects/Skinet/Infrastrcture/obj/Debug/net9.0/ref/Infrastrcture.dll
