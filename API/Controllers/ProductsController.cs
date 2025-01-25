@@ -9,18 +9,18 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductsController(StoreContext storeContext) : ControllerBase
+    public class ProductsController(StoreContext context) : ControllerBase
     {
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
-            return await storeContext.Products.ToListAsync();
+            return await context.Products.ToListAsync();
         }
 
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await storeContext.Products.FindAsync(id);
+            var product = await context.Products.FindAsync(id);
 
             if (product == null) return NotFound();
 
@@ -28,11 +28,38 @@ namespace API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> CreateProduct(Product product)
+        public async Task<ActionResult<Product>> CreateProduct(Product product)
         {
-            storeContext.Products.Add(product);
-            var result = await storeContext.SaveChangesAsync();
-            return result;
+            context.Products.Add(product);
+            await context.SaveChangesAsync();
+            return product;
+        }
+
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> UpdateProduct(int id, Product product)
+        {
+            var isExist = await context.Products.AnyAsync(x => x.Id == id);
+
+            if (!isExist) return NotFound();
+
+            context.Entry(product).State = EntityState.Modified;
+            await context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult> DeleteProduct(int id)
+        {
+            var product = await context.Products.FindAsync(id);
+
+            if (product == null)
+                return NotFound();
+
+            context.Products.Remove(product);
+
+            await context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }
