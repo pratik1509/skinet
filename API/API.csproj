@@ -10,4 +10,8 @@
     <ProjectReference Include="..\Infrastrcture\Infrastrcture.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1" />
+  </ItemGroup>
+
 </Project>
