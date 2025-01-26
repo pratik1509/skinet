@@ -70,6 +70,29 @@ namespace API.Controllers
             if (await repo.SaveChangesAsync())
                 return NoContent();
 
-            return BadRequest("Problem deleting product");        }
+            return BadRequest("Problem deleting product");        
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
+        {
+            var brands = await repo.GetBrandsAsync();
+
+            if (brands == null)
+                return NotFound();
+
+            return Ok(brands);
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<string>> GetTypes()
+        {
+            var types = await repo.GetTypesAsync();
+
+            if (types == null)
+                return NotFound();
+
+            return Ok(types);
+        }
     }
 }
