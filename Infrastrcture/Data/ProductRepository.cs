@@ -34,7 +34,7 @@ public class ProductRepository(StoreContext context) : IProductsRepository
 
     public async Task<bool> SaveChangesAsync()
     {
-        return await context.SaveChangesAsync() == 1;
+        return await context.SaveChangesAsync() > 0;
     }
 
     public void UpdateProduct(Product product)
